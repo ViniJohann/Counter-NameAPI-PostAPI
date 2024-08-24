@@ -1,0 +1,37 @@
+header {
+    width: 100%;
+    background-color: #051c33;
+    padding: 20px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: white;
+}
+
+header p {
+    color: white;
+    padding: 10px;
+}
+
+header nav {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border: 1px solid aliceblue;
+}
+
+header a:hover {
+    color: #663004
+}
